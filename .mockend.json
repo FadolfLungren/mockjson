@@ -1,35 +1,39 @@
 {
   "Post": {
-    "title": { "string": {} },
+    "title": {
+      "string": {}
+    },
     "comments": {
       "hasMany": "Comment"
     }
   },
   "Comment": {
-    "body": { "string": {} },
+    "body": {
+      "string": {}
+    },
     "post": {
       "belongsTo": "Post"
     }
   },
-  "Article":{
-    title:{
-      "loremWords":{minLength:3, maxLength:5}
-    },
-    
-    datedMinsAgo:{
-        "dateTime": {
-          "min": "2010-01-01T00:00:00Z",
-          "max": "2020-12-31T23:59:59Z"
+  "Article": {
+    "title": {
+      "loremWords": {
+        "minLength": 3,
+        "maxLength": 5
       }
     },
-    
-    type:{
-        "string": [
-          "news",
-          "story",
-          "post"
+    "datedMinsAgo": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    },
+    "type": {
+      "string": [
+        "news",
+        "story",
+        "post"
       ]
     }
-    
   }
 }
