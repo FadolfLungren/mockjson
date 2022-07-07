@@ -17,7 +17,7 @@
   },
   "Article": {
     "title": {
-      "loremWords": { "minLength": 5, "maxLength": 20 }
+      "loremWords": { "minLength": 20, "maxLength": 100 }
     },
     "datedMinsAgo": {
       "dateTime": {
