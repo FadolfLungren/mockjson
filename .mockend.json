@@ -17,10 +17,7 @@
   },
   "Article": {
     "title": {
-      "loremWords": {
-        "minLength": 3,
-        "maxLength": 5
-      }
+      "loremSentences": { "minLength": 3, "maxLength": 10 }
     },
     "datedMinsAgo": {
       "dateTime": {
