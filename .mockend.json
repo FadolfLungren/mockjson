@@ -15,35 +15,6 @@
       "belongsTo": "Post"
     }
   },
-  "Article": {
-    "title": {
-      "loremWords": { "minLength": 50, "maxLength": 200 }
-    },
-    "datedMinsAgo": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    },
-    "type": {
-      "string": [
-        "news",
-        "story",
-        "post"
-      ]
-    },
-    "img_url":{
-      "string": [
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.6XdKhnTe1R2qGGYqLB1NbgHaEK%26pid%3DApi&f=1",
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Ey0o-HJgK2J8gXoSEtXImQHaHa%26pid%3DApi&f=1",
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.a9qKx3ext-PXd0J1x2YwAwHaEK%26pid%3DApi&f=1",
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.VkMt1dEN_02Vha9TsV2fZQHaFc%26pid%3DApi&f=1",
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.7gqpV8GyFsNznn5b2LrQ1wHaHa%26pid%3DApi&f=1",
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.vF_0d49pk5ffvFylvuBx2AHaFj%26pid%3DApi&f=1",
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.owRF8OovfDwrc0laa5ckiwHaHa%26pid%3DApi&f=1"
-      ]
-    }
-  },
   "SiPack": {
     "title": {
       "loremWords": { "minLength": 50, "maxLength": 200 }
