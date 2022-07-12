@@ -15,7 +15,7 @@
       "belongsTo": "Post"
     }
   },
-  "Article": {
+  "Sipackage": {
     "title": {
       "loremWords": { "minLength": 50, "maxLength": 200 }
     },
